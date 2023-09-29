@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-package localize.v1alpha1;
+package localize;
 
 message Attributes {
   map<string,string> values = 1;
